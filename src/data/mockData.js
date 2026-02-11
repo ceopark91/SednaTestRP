@@ -1,0 +1,70 @@
+export const mockCompanies = [
+  "현대자동차",
+  "삼성전자",
+  "LG에너지솔루션",
+  "SK이노베이션",
+  "한화솔루션"
+];
+
+export const mockProducts = [
+  {
+    id: 1,
+    no: 1,
+    company: "현대자동차",
+    industry: "자동차",
+    commissioningDate: "",
+    manager: "김철수",
+    model: "SDM20",
+    sn: "DM22404002",
+    capacity: "50L",
+    material: "엔진오일",
+    viscosity: "500cps",
+    rpm: "1500",
+    kw: "0.18kw/7.5:1",
+    hz: "50Hz",
+    a: "3",
+    db: "65",
+    status: "미완료",
+    timestamp: ""
+  },
+  {
+    id: 2,
+    no: 2,
+    company: "현대자동차",
+    industry: "자동차",
+    commissioningDate: "2024-02-11",
+    manager: "이영희",
+    model: "SDM60",
+    sn: "DM62404031~33",
+    capacity: "100L",
+    material: "구리스",
+    viscosity: "2000cps",
+    rpm: "1200",
+    kw: "0.18kw/7.5:1",
+    hz: "50Hz",
+    a: "4",
+    db: "70",
+    status: "완료",
+    timestamp: "2024-02-11 14:00"
+  },
+  {
+    id: 3,
+    no: 3,
+    company: "삼성전자",
+    industry: "반도체",
+    commissioningDate: "",
+    manager: "",
+    model: "SDM100",
+    sn: "",
+    capacity: "",
+    material: "",
+    viscosity: "",
+    rpm: "",
+    kw: "",
+    hz: "",
+    a: "",
+    db: "",
+    status: "미완료",
+    timestamp: ""
+  }
+];
